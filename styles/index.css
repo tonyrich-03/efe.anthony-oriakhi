@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(rgb(5, 5, 5), rgb(1, 45, 56), rgb(0, 0, 26), rgb(5, 5, 5)); 
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+#contents {
+  padding: 40px;
+  background-color: rgb(40, 119, 133);
+  color: rgb(179, 171, 171);
+  border-radius: 8px;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.acc-pass {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+  color:rgb(179, 171, 171);
+}
+
+.name-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.submit {
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #27272b;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: #000000;
+}
+
+.password-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#for-password {
+  display: none;
+}
+
+#account {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .acc-pass {
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 450px) {
+  .acc-pass {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p,
+  label {
+    font-size: 15px;
+  }
+
+  #contents {
+    padding: 20px;
+  }
+ 
+}
